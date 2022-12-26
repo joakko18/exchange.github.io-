@@ -1,0 +1,70 @@
+.col{
+    border: solid rgb(11, 12, 11) 2px;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    padding: 2px;
+}
+
+.row{ 
+    border: solid rgb(11, 12, 11) 2px;
+    margin: 2px;
+    padding: 2px;
+}
+
+#dolar{
+margin: auto;
+height: 220px;
+border-radius: 80px;
+width: 380px;
+border: solid rgb(2, 67, 22) 4px;
+text-align: center;
+background-color: rgb(59, 118, 59);
+
+}
+
+#euro{
+   
+    margin: auto;
+    height: 220px;
+    border-radius: 80px;
+    width: 380px;
+    border: solid rgb(19, 22, 196) 4px;
+    text-align: center; 
+    background-color: rgb(54, 92, 243);
+}
+
+#botondolar{
+    background-color: green;
+    color: aliceblue;
+}
+#botoneuro{
+    background-color: blue;
+    color: aliceblue;
+}
+#valorEuro{
+    background-color: white;
+}
+
+
+#valorDolar{
+    background-color: white;
+}
+ 
+#pesosPag{
+    margin: 4px;
+    padding: 4px;
+}
+#pesosPagE{
+    margin: 4px;
+    padding: 4px;
+}
+
+#banderas{
+    height: 80px;
+    width: 130px;
+}
+
+
+
+
