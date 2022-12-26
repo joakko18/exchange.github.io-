@@ -33,6 +33,29 @@ background-color: rgb(59, 118, 59);
     text-align: center; 
     background-color: rgb(54, 92, 243);
 }
+@media only screen and (max-width: 425px) {
+    #dolar{
+        margin: auto;
+        height: 220px;
+        border-radius: 80px;
+        width: 330px;
+        border: solid rgb(2, 67, 22) 4px;
+        text-align: center;
+        background-color: rgb(59, 118, 59);
+        
+        }
+        
+        #euro{
+           
+            margin: auto;
+            height: 220px;
+            border-radius: 80px;
+            width: 330px;
+            border: solid rgb(19, 22, 196) 4px;
+            text-align: center; 
+            background-color: rgb(54, 92, 243);
+        }
+  }
 
 #botondolar{
     background-color: green;
