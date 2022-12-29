@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-K8F0S73QM5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-K8F0S73QM5');
-</script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exchange</title>
+    <title>WorldExchange</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./exchange2.css">
 </head>
 <body>
-    <h1 style="text-align: center;">SuperExchange</h1>
+    <h1 style="text-align: center;">Arbolito Cordoba capital</h1>
 
     <div class="container-md">
+        <div class="row"><button onclick="cotizacion()">Cotizacion de hoy</button></div>
         <div class="row">
             <div class="col">
             <div id="dolar">
-                <input id="pesosPag" style="WIDTH: 180px; HEIGHT: 30px;"  type="cantidad de pesos" name="pesos" placeholder="cantidad de pesos">
+                <input id="pesosPag" style="WIDTH: 180px; HEIGHT: 30px;"  type="cantidad de pesos" name="pesos" placeholder="Ingrese un monto">
                 <div>
-                    Cantidad Dolar Blue:
+                   <p id="cambio">Cambio:</p> 
                     <output id="valorDolar">0.0</output></div>
+                
                     <div ><img id="banderas" src="./img/Us flag.webp" alt=""></div>
             </div>
+            <div class="col">
             <button id="botondolar" onclick="changeDolar()">Change to Dolar</button>
+            <button id="botonpesos" onclick="changetoPesos()">Change to pesos</button>
+            </div>
+            
         </div>
         <div class="col">
             <div id="euro">
-                <input id="pesosPagE" style="WIDTH: 180px; HEIGHT: 30px;"  type="cantidad de pesos" name="pesos" placeholder="cantidad de pesos">
+                <input id="pesosPagE" style="WIDTH: 180px; HEIGHT: 30px;"  type="cantidad de pesos" name="pesos" placeholder="Ingrese un monto">
                 <div>
-                    Cantidad Euro Blue:
+                    <p id="cambioE">Cambio</p> 
                     <output id="valorEuro">0.0</output></div>
-                    <div ><img id="banderas" src="./img/european union flag.png" alt=""></div>
-            </div>
-            
+                    <div >
+                        <img id="banderas" src="./img/european union flag.png" alt="">
+                    </div>
+        </div>
+        <div class="col">
             <button id="botoneuro" onclick="changeEuro()">Change to Euro</button>
-        </div>
-        </div>
-
+            <button id="botonpesosE" onclick="changetoPesosE()">Change to pesos</button>
     </div>
+    
+ </div>
+ <section class="row">
+    <article><p>La funcion de esta pagina es siplemente informativa y corresponde a los datos obtenidos de los vendedores de divisas de la plaza central de cordoba capital y otras fuentes informales a lo largo de Argentina</p></article>
+</section>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <script src="./exchange2.js"></script>
