@@ -2,8 +2,10 @@
     border: solid rgb(11, 12, 11) 2px;
     align-items: center;
     justify-content: center;
+    text-align: center;
     margin: 2px;
     padding: 2px;
+    
 }
 
 .row{ 
@@ -34,10 +36,13 @@ background-color: rgb(59, 118, 59);
     background-color: rgb(54, 92, 243);
 }
 
-
 #botondolar{
     background-color: green;
-    color: aliceblue;
+    color: white;
+}
+#botonpesos{
+width: auto;
+background-color: burlywood;
 }
 #botoneuro{
     background-color: blue;
@@ -45,11 +50,15 @@ background-color: rgb(59, 118, 59);
 }
 #valorEuro{
     background-color: white;
+    margin: 3px;
+    padding: 2px;
 }
 
 
 #valorDolar{
     background-color: white;
+    margin: 3px;
+    padding: 2px;
 }
  
 #pesosPag{
@@ -66,12 +75,13 @@ background-color: rgb(59, 118, 59);
     width: 130px;
 }
 
+
 @media only screen and (max-width: 425px) {
     #dolar{
         margin: auto;
         height: 220px;
         border-radius: 80px;
-        width: 300px;
+        width: 330px;
         border: solid rgb(2, 67, 22) 4px;
         text-align: center;
         background-color: rgb(59, 118, 59);
@@ -83,7 +93,7 @@ background-color: rgb(59, 118, 59);
             margin: auto;
             height: 220px;
             border-radius: 80px;
-            width: 300px;
+            width: 330px;
             border: solid rgb(19, 22, 196) 4px;
             text-align: center; 
             background-color: rgb(54, 92, 243);
