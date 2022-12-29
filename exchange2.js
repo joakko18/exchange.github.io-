@@ -52,5 +52,5 @@ function changetoPesosE(){
     var Cdolar = 355
     var Ceuro = 363
 function cotizacion(){
-    alert("La cotizacion de hoy es:  "+Cdolar+" pesos por dolar"+" La cotizacion del Euro es:  "+Ceuro+" pesos por euro")
+    alert("La cotizacion del Dolar es:  "+Cdolar+" pesos por dolar"+" La cotizacion del Euro es:  "+Ceuro+" pesos por euro")
 }
